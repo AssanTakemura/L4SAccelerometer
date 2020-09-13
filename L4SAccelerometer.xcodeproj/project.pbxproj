@@ -15,6 +15,10 @@
 		1789DE3E250E66ED003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE3C250E66ED003C0D6B /* LaunchScreen.storyboard */; };
 		1789DE49250E66ED003C0D6B /* L4SAccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE48250E66ED003C0D6B /* L4SAccelerometerTests.swift */; };
 		1789DE54250E66ED003C0D6B /* L4SAccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE53250E66ED003C0D6B /* L4SAccelerometerUITests.swift */; };
+		1789DE64250E676D003C0D6B /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE62250E676D003C0D6B /* awa.png */; };
+		1789DE65250E676D003C0D6B /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE63250E676D003C0D6B /* suiheiki.png */; };
+		1789DE67250E692B003C0D6B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE66250E692B003C0D6B /* GameViewController.swift */; };
+		1789DE69250E694A003C0D6B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE68250E694A003C0D6B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1789DE4F250E66ED003C0D6B /* L4SAccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SAccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789DE53250E66ED003C0D6B /* L4SAccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SAccelerometerUITests.swift; sourceTree = "<group>"; };
 		1789DE55250E66ED003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DE62250E676D003C0D6B /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		1789DE63250E676D003C0D6B /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		1789DE66250E692B003C0D6B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1789DE68250E694A003C0D6B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,12 @@
 		1789DE30250E66EC003C0D6B /* L4SAccelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				1789DE61250E676D003C0D6B /* 13_Resource */,
 				1789DE31250E66EC003C0D6B /* AppDelegate.swift */,
 				1789DE33250E66EC003C0D6B /* SceneDelegate.swift */,
 				1789DE35250E66EC003C0D6B /* ViewController.swift */,
+				1789DE66250E692B003C0D6B /* GameViewController.swift */,
+				1789DE68250E694A003C0D6B /* ResultViewController.swift */,
 				1789DE37250E66EC003C0D6B /* Main.storyboard */,
 				1789DE3A250E66ED003C0D6B /* Assets.xcassets */,
 				1789DE3C250E66ED003C0D6B /* LaunchScreen.storyboard */,
@@ -126,6 +137,15 @@
 				1789DE55250E66ED003C0D6B /* Info.plist */,
 			);
 			path = L4SAccelerometerUITests;
+			sourceTree = "<group>";
+		};
+		1789DE61250E676D003C0D6B /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1789DE62250E676D003C0D6B /* awa.png */,
+				1789DE63250E676D003C0D6B /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +254,9 @@
 			files = (
 				1789DE3E250E66ED003C0D6B /* LaunchScreen.storyboard in Resources */,
 				1789DE3B250E66ED003C0D6B /* Assets.xcassets in Resources */,
+				1789DE65250E676D003C0D6B /* suiheiki.png in Resources */,
 				1789DE39250E66EC003C0D6B /* Main.storyboard in Resources */,
+				1789DE64250E676D003C0D6B /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1789DE69250E694A003C0D6B /* ResultViewController.swift in Sources */,
+				1789DE67250E692B003C0D6B /* GameViewController.swift in Sources */,
 				1789DE36250E66EC003C0D6B /* ViewController.swift in Sources */,
 				1789DE32250E66EC003C0D6B /* AppDelegate.swift in Sources */,
 				1789DE34250E66EC003C0D6B /* SceneDelegate.swift in Sources */,
