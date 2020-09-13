@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1789DE32250E66EC003C0D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE31250E66EC003C0D6B /* AppDelegate.swift */; };
+		1789DE34250E66EC003C0D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE33250E66EC003C0D6B /* SceneDelegate.swift */; };
+		1789DE36250E66EC003C0D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE35250E66EC003C0D6B /* ViewController.swift */; };
+		1789DE39250E66EC003C0D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE37250E66EC003C0D6B /* Main.storyboard */; };
+		1789DE3B250E66ED003C0D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE3A250E66ED003C0D6B /* Assets.xcassets */; };
+		1789DE3E250E66ED003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DE3C250E66ED003C0D6B /* LaunchScreen.storyboard */; };
+		1789DE49250E66ED003C0D6B /* L4SAccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE48250E66ED003C0D6B /* L4SAccelerometerTests.swift */; };
+		1789DE54250E66ED003C0D6B /* L4SAccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE53250E66ED003C0D6B /* L4SAccelerometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1789DE45250E66ED003C0D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1789DE26250E66EB003C0D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1789DE2D250E66EC003C0D6B;
+			remoteInfo = L4SAccelerometer;
+		};
+		1789DE50250E66ED003C0D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1789DE26250E66EB003C0D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1789DE2D250E66EC003C0D6B;
+			remoteInfo = L4SAccelerometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1789DE2E250E66EC003C0D6B /* L4SAccelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L4SAccelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DE31250E66EC003C0D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1789DE33250E66EC003C0D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1789DE35250E66EC003C0D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1789DE38250E66EC003C0D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1789DE3A250E66ED003C0D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1789DE3D250E66ED003C0D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1789DE3F250E66ED003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DE44250E66ED003C0D6B /* L4SAccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SAccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DE48250E66ED003C0D6B /* L4SAccelerometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SAccelerometerTests.swift; sourceTree = "<group>"; };
+		1789DE4A250E66ED003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DE4F250E66ED003C0D6B /* L4SAccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SAccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DE53250E66ED003C0D6B /* L4SAccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SAccelerometerUITests.swift; sourceTree = "<group>"; };
+		1789DE55250E66ED003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1789DE2B250E66EC003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE41250E66ED003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE4C250E66ED003C0D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1789DE25250E66EB003C0D6B = {
+			isa = PBXGroup;
+			children = (
+				1789DE30250E66EC003C0D6B /* L4SAccelerometer */,
+				1789DE47250E66ED003C0D6B /* L4SAccelerometerTests */,
+				1789DE52250E66ED003C0D6B /* L4SAccelerometerUITests */,
+				1789DE2F250E66EC003C0D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1789DE2F250E66EC003C0D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1789DE2E250E66EC003C0D6B /* L4SAccelerometer.app */,
+				1789DE44250E66ED003C0D6B /* L4SAccelerometerTests.xctest */,
+				1789DE4F250E66ED003C0D6B /* L4SAccelerometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1789DE30250E66EC003C0D6B /* L4SAccelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				1789DE31250E66EC003C0D6B /* AppDelegate.swift */,
+				1789DE33250E66EC003C0D6B /* SceneDelegate.swift */,
+				1789DE35250E66EC003C0D6B /* ViewController.swift */,
+				1789DE37250E66EC003C0D6B /* Main.storyboard */,
+				1789DE3A250E66ED003C0D6B /* Assets.xcassets */,
+				1789DE3C250E66ED003C0D6B /* LaunchScreen.storyboard */,
+				1789DE3F250E66ED003C0D6B /* Info.plist */,
+			);
+			path = L4SAccelerometer;
+			sourceTree = "<group>";
+		};
+		1789DE47250E66ED003C0D6B /* L4SAccelerometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1789DE48250E66ED003C0D6B /* L4SAccelerometerTests.swift */,
+				1789DE4A250E66ED003C0D6B /* Info.plist */,
+			);
+			path = L4SAccelerometerTests;
+			sourceTree = "<group>";
+		};
+		1789DE52250E66ED003C0D6B /* L4SAccelerometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1789DE53250E66ED003C0D6B /* L4SAccelerometerUITests.swift */,
+				1789DE55250E66ED003C0D6B /* Info.plist */,
+			);
+			path = L4SAccelerometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1789DE2D250E66EC003C0D6B /* L4SAccelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DE58250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometer" */;
+			buildPhases = (
+				1789DE2A250E66EC003C0D6B /* Sources */,
+				1789DE2B250E66EC003C0D6B /* Frameworks */,
+				1789DE2C250E66EC003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L4SAccelerometer;
+			productName = L4SAccelerometer;
+			productReference = 1789DE2E250E66EC003C0D6B /* L4SAccelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1789DE43250E66ED003C0D6B /* L4SAccelerometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DE5B250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometerTests" */;
+			buildPhases = (
+				1789DE40250E66ED003C0D6B /* Sources */,
+				1789DE41250E66ED003C0D6B /* Frameworks */,
+				1789DE42250E66ED003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1789DE46250E66ED003C0D6B /* PBXTargetDependency */,
+			);
+			name = L4SAccelerometerTests;
+			productName = L4SAccelerometerTests;
+			productReference = 1789DE44250E66ED003C0D6B /* L4SAccelerometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1789DE4E250E66ED003C0D6B /* L4SAccelerometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789DE5E250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometerUITests" */;
+			buildPhases = (
+				1789DE4B250E66ED003C0D6B /* Sources */,
+				1789DE4C250E66ED003C0D6B /* Frameworks */,
+				1789DE4D250E66ED003C0D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1789DE51250E66ED003C0D6B /* PBXTargetDependency */,
+			);
+			name = L4SAccelerometerUITests;
+			productName = L4SAccelerometerUITests;
+			productReference = 1789DE4F250E66ED003C0D6B /* L4SAccelerometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1789DE26250E66EB003C0D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Takemura assan";
+				TargetAttributes = {
+					1789DE2D250E66EC003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					1789DE43250E66ED003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 1789DE2D250E66EC003C0D6B;
+					};
+					1789DE4E250E66ED003C0D6B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 1789DE2D250E66EC003C0D6B;
+					};
+				};
+			};
+			buildConfigurationList = 1789DE29250E66EB003C0D6B /* Build configuration list for PBXProject "L4SAccelerometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1789DE25250E66EB003C0D6B;
+			productRefGroup = 1789DE2F250E66EC003C0D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1789DE2D250E66EC003C0D6B /* L4SAccelerometer */,
+				1789DE43250E66ED003C0D6B /* L4SAccelerometerTests */,
+				1789DE4E250E66ED003C0D6B /* L4SAccelerometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1789DE2C250E66EC003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DE3E250E66ED003C0D6B /* LaunchScreen.storyboard in Resources */,
+				1789DE3B250E66ED003C0D6B /* Assets.xcassets in Resources */,
+				1789DE39250E66EC003C0D6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE42250E66ED003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE4D250E66ED003C0D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1789DE2A250E66EC003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DE36250E66EC003C0D6B /* ViewController.swift in Sources */,
+				1789DE32250E66EC003C0D6B /* AppDelegate.swift in Sources */,
+				1789DE34250E66EC003C0D6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE40250E66ED003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DE49250E66ED003C0D6B /* L4SAccelerometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1789DE4B250E66ED003C0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1789DE54250E66ED003C0D6B /* L4SAccelerometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1789DE46250E66ED003C0D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1789DE2D250E66EC003C0D6B /* L4SAccelerometer */;
+			targetProxy = 1789DE45250E66ED003C0D6B /* PBXContainerItemProxy */;
+		};
+		1789DE51250E66ED003C0D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1789DE2D250E66EC003C0D6B /* L4SAccelerometer */;
+			targetProxy = 1789DE50250E66ED003C0D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1789DE37250E66EC003C0D6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1789DE38250E66EC003C0D6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1789DE3C250E66ED003C0D6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1789DE3D250E66ED003C0D6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1789DE56250E66ED003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1789DE57250E66ED003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1789DE59250E66ED003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1789DE5A250E66ED003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1789DE5C250E66ED003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L4SAccelerometer.app/L4SAccelerometer";
+			};
+			name = Debug;
+		};
+		1789DE5D250E66ED003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L4SAccelerometer.app/L4SAccelerometer";
+			};
+			name = Release;
+		};
+		1789DE5F250E66ED003C0D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = L4SAccelerometer;
+			};
+			name = Debug;
+		};
+		1789DE60250E66ED003C0D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = L4SAccelerometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.assan.takemura.L4SAccelerometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = L4SAccelerometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1789DE29250E66EB003C0D6B /* Build configuration list for PBXProject "L4SAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DE56250E66ED003C0D6B /* Debug */,
+				1789DE57250E66ED003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DE58250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DE59250E66ED003C0D6B /* Debug */,
+				1789DE5A250E66ED003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DE5B250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DE5C250E66ED003C0D6B /* Debug */,
+				1789DE5D250E66ED003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1789DE5E250E66ED003C0D6B /* Build configuration list for PBXNativeTarget "L4SAccelerometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1789DE5F250E66ED003C0D6B /* Debug */,
+				1789DE60250E66ED003C0D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1789DE26250E66EB003C0D6B /* Project object */;
+}
